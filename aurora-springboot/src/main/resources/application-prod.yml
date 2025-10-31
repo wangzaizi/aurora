@@ -1,13 +1,13 @@
 server:
-  port: 8080
+  port: 8081
 
 spring:
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://mysql的ip:3306/aurora?serverTimezone=Asia/Shanghai&allowMultiQueries=true
-    username: 账号
-    password: 密码
+    url: jdbc:mysql://47.97.30.236:3306/aurora?serverTimezone=Asia/Shanghai&allowMultiQueries=true
+    username: mxxadmin
+    password: Maxing1129@
     hikari:
       minimum-idle: 10
       idle-timeout: 180000
